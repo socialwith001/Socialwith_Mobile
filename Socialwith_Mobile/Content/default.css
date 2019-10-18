@@ -1,0 +1,65 @@
+﻿@CHARSET "utf-8";
+
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+body, form, input, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 0;
+}
+
+textarea {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend, caption {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+label {
+    cursor: pointer;
+}
+
+td, div, p, li, dt, dd, input, button, textarea, select, h1, h2, h3, h4, h5, a {
+    font-size: 13px;
+    color: #555;
+}
+
