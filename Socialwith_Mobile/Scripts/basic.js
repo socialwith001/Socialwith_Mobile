@@ -65,6 +65,7 @@ $(document).ready(function () {
         autoControls: false,
         controls: true,
         pager: false,
+        pagerType: 'short',
         touchEnabled: true,
     });
 

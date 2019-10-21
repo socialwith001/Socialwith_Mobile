@@ -7,11 +7,45 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Index</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/Scripts/js")
+    <script>
+
+    </script>
 </head>
+
 <body>
-    <div> 
+    <div id="mainHeader" style="display: block;">
+        <div class="top">
+            <p class="logo">mobile Header</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="gnb">
+            <div class="frame" id="basic" style="overflow: hidden;">
+                <ul class="nav" style="transform: translateZ(0px) translateX(-250px); width: 776px;">
+                    <li role="presentation" class="home-gnb"><a href="#">menu1</a></li>
+                    <li role="presentation" class="day-gnb"><a href="#" onclick="gta_push('m_GNB','m_Day discount ShortCut','');">menu2</a></li>
+                    <li role="presentation" class="refur-gnb"><a href="#" onclick="gta_push('m_GNB','m_Return discount ShortCut','');">menu3</a></li>
+                    <li role="presentation" class="calendar-gnb"><a href="#" onclick="gta_push('m_GNB','m_Discount calendar ShortCut','');">menu4</a></li>
+                    <li role="presentation" class="promotion-gnb"><a href="#" onclick="gta_push('m_GNB','m_Limited quantity discount ShortCut','');">menu5</a></li>
+                    <li role="presentation" class="plan-gnb active"><a href="#" onclick="gta_push('m_GNB','m_Plan ShortCut','');">menu6</a></li>
+                    <li role="presentation" class="navimro-gnb"><a href="#" onclick="gta_push('m_GNB','m_Navimro PB ShortCut','');">menu7</a></li>
+                    <li role="presentation" class="newproducts-gnb"><a href="#" onclick="gta_push('m_GNB','m_New products','');">menu8</a></li>
+                    <li role="presentation" class="overseas"><a href="#" onclick="gta_push('GNB','Overseas ShortCut','');">menu9</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mbanner">
+            <ul class="bxslider">
+                <li style="background:#ffb97b"></li>
+                <li style="background:#d26b5d"></li>
+                <li style="background:#915f6d"></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
