@@ -19,12 +19,26 @@ namespace Socialwith_Mobile
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
-
+           // bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+               //       "~/Scripts/bootstrap.js"));
+  
+            bundles.Add(new ScriptBundle("~/Scripts/js").Include(
+                     "~/Scripts/jquery-3.3.1.js",
+                     "~/Scripts/jquery-3.3.1.min.js",
+                     "~/Scripts/jquery.bxslider.min.js",
+                     "~/Scripts/horizontal.js",
+                     "~/Scripts/sly.min.js",
+                     //"~/Scripts/common.js",
+                     "~/Scripts/basic.js"));
+            
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/jquery-ui-1.12.1.min.css",
+                      //"~/Content/bootstrap.css",
+                      "~/Content/jquery.bxslider.css",
+                      //"~/Content/Site.css",
+                      "~/Content/default.css",
+                      "~/Content/common.css",
+                      "~/Content/login.css"));
         }
     }
 }
