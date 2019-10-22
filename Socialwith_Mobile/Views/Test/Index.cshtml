@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/Scripts/js")
+</head>
+<body>
+    <div id="login_wrap">
+        <div class="inner">
+            <img src="../images/login/muhan_ci.png" alt="무한상사 로고" class="logo"/>
+            <input type="text" class="login_input" placeholder="아이디 혹은 이메일" />
+            <input type="text" class="login_input" placeholder="비밀번호" />
+            <a href="#" class="btn_blue top_pad">로그인</a>
+            <div class="check_area">
+                <input type="checkbox" name="login_check" value="check"> <span>로그인 상태유지</span>
+            </div>
+            <div class="login_option">
+                <ul>
+                    <li><a href="#">아이디찾기</a></li>
+                    <li><a href="#">비밀번호찾기</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+            <div class="login_call">
+                <img src="../images/login/login_callcenter.png" alt="고객센터 연결"/>
+                <p>고객센터</p>
+                <p class="num"><a href="tel:1811-7280">1811-7280</a></p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

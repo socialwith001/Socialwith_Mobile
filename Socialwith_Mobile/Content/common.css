@@ -1,12 +1,35 @@
 ﻿@CHARSET "utf-8";
 
+
+/**버튼 스타일**/
+.btn_blue {
+    background: #269eec;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+
+
+/**마진**/
+.top_pad {
+    margin-top:15px;
+}
+
+
+
 #mainHeader .top {
     position: relative;
-    padding:0 10px;
-    height:80px;
+    padding: 0 10px;
+    height: 80px;
     background: #fbcbc9;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .main {

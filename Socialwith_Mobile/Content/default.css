@@ -62,6 +62,27 @@ td, div, p, li, dt, dd, input, button, textarea, select, h1, h2, h3, h4, h5, a {
     color: #555;
 }
 
+    input[type="text"] {
+        border: 1px solid #e6e6e6;
+        height:48px;
+        line-height:48px;
+        box-sizing:border-box;
+        padding:0 10px;
+        width:100%;
+        font-size:16px;
+        color:#000000;
+    }
+
+    input[type="checkbox"] {
+        border: 1px solid #e6e6e6;
+        width:20px;
+        height:20px;
+    }
+
+        ::placeholder {
+            color: #d0d0d0;
+        }
+
 
 
 

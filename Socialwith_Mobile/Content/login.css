@@ -1,0 +1,91 @@
+﻿@CHARSET "utf-8";
+
+#login_wrap {
+    width: 100%;
+}
+
+    #login_wrap > .inner {
+        text-align:center;
+        padding:30px 20px;
+    }
+
+        #login_wrap > .inner > .logo {
+            width:239px;
+            margin-bottom:20px;
+        }
+
+        #login_wrap > .inner > .login_input {
+            margin-top:15px;
+        }
+
+        #login_wrap > .inner > .check_area {
+            margin:25px 0 10px 0;
+            text-align:left;           
+        }
+
+            #login_wrap > .inner > .check_area > span {
+                display: inline-block;
+                vertical-align:top;
+            }
+
+        #login_wrap > .inner > .login_option {
+            width: 100%;
+            border-top: 1px solid #e6e6e6;
+        }
+
+            #login_wrap > .inner > .login_option > ul {
+                display:inline-block;
+                margin:10px auto;
+                text-align:center;
+            }
+
+                #login_wrap > .inner > .login_option > ul > li {
+                    display:inline-block;
+                    float:left;
+                }
+
+                    #login_wrap > .inner > .login_option > ul > li:after {
+                        content: "";
+                        display: inline-block;
+                        width: 1px;
+                        height: 20px;
+                        background: #e6e6e6;
+                        vertical-align: middle;
+                        margin:0 20px;
+                    }
+
+                    #login_wrap > .inner > .login_option > ul > li:last-child:after {
+                        display:none;
+                    }
+
+                    #login_wrap > .inner > .login_option > ul > li > a {
+                        font-size:14px;
+                    }
+
+        #login_wrap > .inner > .login_call {
+            width:100%;
+            background: #f6f7f9;
+            margin-top:30px;
+            padding:20px 0;
+        }
+
+            #login_wrap > .inner > .login_call > img {
+                background:#fff;
+                border-radius:40px;
+                width:18px;
+                height:18px;
+                padding:10px;
+                margin-bottom:10px;
+            }
+
+            #login_wrap > .inner > .login_call > p {
+                font-weight:bold;
+                font-size:17px;
+            }
+
+                #login_wrap > .inner > .login_call > p.num {
+                    font-weight:normal;
+                    font-size: 15px;
+                }
+    
+
